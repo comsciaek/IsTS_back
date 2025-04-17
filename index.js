@@ -173,8 +173,8 @@ app.post('/notify-employee', async (req, res) => {
 });
 
 // API สำหรับทดสอบ
-app.get('/api-test', (req, res) => {
-  res.send('Hello World2');
+app.get('/api/v1/', (req, res) => {
+  res.send('Hello World...');
 });
 
 // API สำหรับอัปเดตสถานะของรายงาน
